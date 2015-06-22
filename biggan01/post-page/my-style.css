@@ -57,7 +57,7 @@
 
 @media (max-width: 767px) {
  
-	#page-TOP {		margin-bottom: 7em;	}
+  #page-TOP {		margin-bottom: 7em;	}
   #page-TOP .b, #page-TOP .c, #page-TOP .d, #page-TOP .e, #page-TOP .f
   {line-height: 3.5em;}
 	#page-TOP .a1 p {
@@ -131,7 +131,7 @@ body {}
 .video-box{ margin:0 auto;  max-width: 950px;}
 .video-box-original { margin:0 ;  max-width: 600px;}
 .tube .page-header p {line-height: 5em; margin: 0;}
-.post-container > .row .page-header {  padding:;}
+.post-container > .row .page-header {  }
 .save-button{  width:100%; margin: 1.3em 0;}
 
 
@@ -153,7 +153,6 @@ body {}
 
 .post-body{
   padding: 1em 0;
-  background: ;
   font-size: 1.17em;
   font-family: inherit;
   text-align: justify;
