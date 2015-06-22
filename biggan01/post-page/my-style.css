@@ -1,12 +1,4 @@
 
-
-
-
-
-
-
-
-
 #page-TOP {
 	background: rgba(68, 61, 28, 0.42) url("https://scontent-lhr3-1.xx.fbcdn.net/hphotos-xfp1/v/t1.0-9/1604689_1153255064700380_8393819453197709240_n.jpg?oh=c1bb698693762e63eae5a99232028345&oe=55F6987D") repeat fixed top;
 	background-size: 400px;
@@ -125,37 +117,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
 body {}
 .post-container > .page-header{ margin-top:2em; margin-bottom:2.5em;   border: 0; }
 .tube {margin-bottom: 4.5em;}
@@ -217,13 +178,14 @@ body {}
 .share-post p a:hover {background:#4A190E;}
 
 
-/* Sidebar Make-UP */
+/* Sidebar Make-UP 
 
 #sidebar {background:#E3D9CF;}
-#sidebar > div {margin-bottom: 4.5em;}
 #sidebar > div.sidebar-about {background: #FDDBF6;}
 #sidebar > div.sidebar-selected {background: #DCFDDB;}
-#sidebar > div.sidebar-more {background: #FDDBF6;}
+#sidebar > div.sidebar-more {background: #FDDBF6;} */
+
+#sidebar > div {margin-bottom: 4.5em;}
 
 #sidebar > div > div.sidebar-header {}
 #sidebar > div > div.sidebar-header h3 {margin:0 0 1em 0; font-family: inherit; font-size: 1.3em;}
@@ -231,31 +193,31 @@ body {}
 #sidebar > div > div.sidebar-body {}
 #sidebar > div > div.sidebar-body p {margin:0; text-align: justify;}
 #sidebar > div > div.sidebar-body > div.row {
-  margin-left: 0;  margin-right: 0;
+  margin-left: 0;  margin-right: 0; margin-bottom: 1em;
 }
-#sidebar > div > div.sidebar-body > div.row > div {
+#sidebar > div > div.sidebar-body > div.row > a > div {
   padding-left: 0;  padding-right: 0;
 }
-#sidebar > div > div.sidebar-body > div.row > div > img {
+#sidebar > div > div.sidebar-body > div.row > a > div > img {
   width:100%;
 }
-#sidebar > div.sidebar-more > div.sidebar-body > div.row > div {
-  padding:0.5em;
+#sidebar > div.sidebar-more > div.sidebar-body > div.row > a > div {
+  padding:0.3em;
+  transition: all 0.15s;
 }
-#sidebar > div.sidebar-more > div.sidebar-body > div.row > div:hover {
-    background: #ff0000;
+#sidebar > div.sidebar-more > div.sidebar-body > div.row > a > div:hover {
+    background: #E2B28A;
 }
 #sidebar > div > div.sidebar-body > div.row > div:first-child {
-  background: #CED2E2;
+  background: ;
 }
-
-#sidebar > div > div.sidebar-body > div.row > div:last-child {
-  background: #ddd; text-align: justify;
+#sidebar > div > div.sidebar-body > div.row > a > div:last-child {
+  background: ; text-align: justify;
 }
-#sidebar > div.sidebar-selected > div.sidebar-body > div.row > div:last-child {
+#sidebar > div.sidebar-selected > div.sidebar-body > div.row > a > div:last-child {
   padding-left: 0.5em;
 }
-#sidebar > div > div.sidebar-body > div.row > div:last-child > p{}
+#sidebar > div > div.sidebar-body > div.row > a > div:last-child > p{}
 
 
 
@@ -307,7 +269,7 @@ body {}
 
 
 
-.dd {
+.d {
   background: blue; height: 500px;
 }
 
