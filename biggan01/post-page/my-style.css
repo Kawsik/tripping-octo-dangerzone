@@ -116,7 +116,6 @@
 
 
 
-
 body {}
 .post-container > .page-header{ margin-top:2em; margin-bottom:2.5em;   border: 0; }
 .tube {margin-bottom: 4.5em;}
@@ -127,12 +126,16 @@ body {}
   border-bottom: 1px dotted #ddd;
 }
 .post-container > .page-header h2 {font-family: inherit;}
-
 .video-box{ margin:0 auto;  max-width: 950px;}
 .video-box-original { margin:0 ;  max-width: 600px;}
 .tube .page-header p {line-height: 5em; margin: 0;}
-.post-container > .row .page-header {  }
+.post-container > .row .page-header {  padding:;}
+
 .save-button{  width:100%; margin: 1.3em 0;}
+.post-container > .page-header > .row > div > button {background: none; color: #ddd; border: 0.01px solid rgba(221, 221, 221, 0.38); text-align:center; transition: all 0.5s;}
+.post-container > .page-header > .row > div > button:hover {background: none; color: #000; border: 0.01px solid #ddd;}
+.post-container > .page-header > .row > div:first-child > button:hover {background: none; color: #000; border: 0.01px solid #ddd; padding-right: 5em;}
+.post-container > .page-header > .row > div:last-child > button:hover  {background: none; color: #000; border: 0.01px solid #ddd; padding-left: 5em;}
 
 
 .video-container {
@@ -153,6 +156,7 @@ body {}
 
 .post-body{
   padding: 1em 0;
+  background: ;
   font-size: 1.17em;
   font-family: inherit;
   text-align: justify;
@@ -187,17 +191,27 @@ body {}
 #sidebar > div {margin-bottom: 4.5em;}
 
 #sidebar > div > div.sidebar-header {}
-#sidebar > div > div.sidebar-header h3 {margin:0 0 1em 0; font-family: inherit; font-size: 1.3em;}
+#sidebar > div > div.sidebar-header h3 {
+  margin:0 0 1em 0; font-family: inherit; font-size: 1.3em;
+  border-bottom: 1px solid rgba(40, 71, 158, 0.08);
+  padding-bottom: 0.5em;
+}
 
 #sidebar > div > div.sidebar-body {}
 #sidebar > div > div.sidebar-body p {margin:0; text-align: justify;}
-#sidebar > div > div.sidebar-body > div.row {
+#sidebar > div > div.sidebar-body > div > div > div.row {
   margin-left: 0;  margin-right: 0; margin-bottom: 1em;
 }
-#sidebar > div > div.sidebar-body > div.row > a > div {
+#sidebar > div.sidebar-more > div.sidebar-body > div.row {
+  margin-left: 0;  margin-right: 0; margin-bottom: 1em;
+}
+#sidebar > div > div.sidebar-body > div > div > div.row > a > div {
   padding-left: 0;  padding-right: 0;
 }
-#sidebar > div > div.sidebar-body > div.row > a > div > img {
+#sidebar > div.sidebar-selected > div.sidebar-body > div > div > div.row > a > div > img {
+  width:100%;
+}
+#sidebar > div.sidebar-more > div.sidebar-body > div.row > a > div > img {
   width:100%;
 }
 #sidebar > div.sidebar-more > div.sidebar-body > div.row > a > div {
@@ -207,18 +221,16 @@ body {}
 #sidebar > div.sidebar-more > div.sidebar-body > div.row > a > div:hover {
     background: #E2B28A;
 }
-#sidebar > div > div.sidebar-body > div.row > div:first-child {
+#sidebar > div > div.sidebar-body > div > div > div.row > div:first-child {
   background: ;
 }
-#sidebar > div > div.sidebar-body > div.row > a > div:last-child {
+#sidebar > div > div.sidebar-body > div > div > div.row > a > div:last-child {
   background: ; text-align: justify;
 }
-#sidebar > div.sidebar-selected > div.sidebar-body > div.row > a > div:last-child {
+#sidebar > div.sidebar-selected > div.sidebar-body > div > div > div.row > a > div:last-child {
   padding-left: 0.5em;
 }
-#sidebar > div > div.sidebar-body > div.row > a > div:last-child > p{}
-
-
+#sidebar > div > div.sidebar-body > div > div > div.row > a > div:last-child > p{}
 
 
 
@@ -233,20 +245,19 @@ body {}
 /* 1200 and more */
     @media (min-width: 1200px) {
     }
-/* 768 ---to--- 979 */
-    @media (min-width: 768px) and (max-width: 979px) { 
-        #sidebar > div > div.sidebar-body > div.row > div {
-          font-size: 0.7em;
+/* 11999 to 978 */
+    @media (min-width: 978px) and (max-width: 1199px) { 
+    }
+/* 979 and less */
+    @media (max-width: 979px) { 
+        .save-button{  width: 40%; margin: 0;}
+        #sidebar > div > div.sidebar-body > div.row > a > div {
+          font-size: ;
+        }
+        .container {min-width: 650px;}
+        #sidebar {border-top: 2px dotted #ddd; padding-top: 4em;
         }
     }
-/* 767 and less */
-    @media (max-width: 767px) { 
-    }
-/* 480 and less */
-    @media (max-width: 480px) { 
-    }
-
-
 
 
 
