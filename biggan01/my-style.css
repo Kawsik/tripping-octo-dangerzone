@@ -1,0 +1,315 @@
+
+
+
+
+
+
+
+
+
+#page-TOP {
+	background: rgba(68, 61, 28, 0.42) url("https://scontent-lhr3-1.xx.fbcdn.net/hphotos-xfp1/v/t1.0-9/1604689_1153255064700380_8393819453197709240_n.jpg?oh=c1bb698693762e63eae5a99232028345&oe=55F6987D") repeat fixed top;
+	background-size: 400px;
+}
+#page-TOP .b {	background: #6C8672;}
+#page-TOP .c {	background: #F17D80;}
+#page-TOP .d {	background: #C4D4AF;}
+#page-TOP .e {	background: #737495;}
+#page-TOP .f {	background: #68A8AD;}
+#page-TOP .a1 p { background: rgba(23, 24, 41, 0.7);
+	margin: 0; color: #fff;
+	text-align: center;
+	font-size: 5em;
+}
+#page-TOP .b, #page-TOP .c, #page-TOP .d, #page-TOP .e, #page-TOP .f
+{text-align: center; transition: all 0.25s;}
+#page-TOP .b:hover, #page-TOP .c:hover, #page-TOP .d:hover, #page-TOP .e:hover, #page-TOP .f:hover
+{	border-radius: em; }
+#page-TOP .b > a, #page-TOP .c > a, #page-TOP .d > a, #page-TOP .e > a, #page-TOP .f > a
+{text-decoration: none; padding: 0; margin: 0; display: block;
+  background: rgba(23, 24, 41, 0);
+  color: #ffffff; font-size: 1.2em;
+  font-variant: petite-caps;  transition: all 0.25s;}
+#page-TOP .b > a:hover,
+#page-TOP .c > a:hover, 
+#page-TOP .d > a:hover, 
+#page-TOP .e > a:hover, 
+#page-TOP .f > a:hover
+{color: #EEF1FB; background: rgba(23, 24, 41, 0.44);}
+.a:hover {}
+
+		
+
+/* 1200 and more */
+
+@media (min-width: 768px) {
+	#page-TOP {		margin-bottom: 6em;	}
+#page-TOP .b, #page-TOP .c, #page-TOP .d, #page-TOP .e, #page-TOP .f
+{line-height: 6em;}
+	#page-TOP .a1 p {
+		margin: 0;
+		line-height: 4.5em;
+		font-size: 5em;
+	}
+#page-TOP .b, #page-TOP .c, #page-TOP .d, #page-TOP .e, #page-TOP .f {
+		height: 6em;
+		width: 20%;
+		float: left;
+		margin-bottom: 5em;
+	}
+}
+
+
+
+/* 767 and less */
+
+@media (max-width: 767px) {
+ 
+	#page-TOP {		margin-bottom: 7em;	}
+  #page-TOP .b, #page-TOP .c, #page-TOP .d, #page-TOP .e, #page-TOP .f
+  {line-height: 3.5em;}
+	#page-TOP .a1 p {
+		margin: 0;
+		line-height: 3em;
+		font-size: 3em;
+	}
+	#page-TOP .b, #page-TOP .c, #page-TOP .d {
+		height: 3.5em;
+		width: 33.33333333333333333333%;
+		float: left;
+	}
+	#page-TOP .e, #page-TOP .f {
+		height: 3.5em;
+		width: 50%;
+		float: left;
+	}
+}
+
+
+
+/* 480 and less */
+
+@media (max-width: 480px) {
+ 
+	#page-TOP {		margin-bottom: 17.5em;	}
+	#page-TOP .a1 p {
+		margin: 0;
+		line-height: 4.5em;
+		font-size: 2em;
+	}
+	#page-TOP .b, #page-TOP .c, #page-TOP .d, #page-TOP .e, #page-TOP .f {
+		height: 3.5em;
+		width: 100%;
+		float: left;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
+body {}
+.post-container > .page-header{ margin-top:2em; margin-bottom:2.5em;   border: 0; }
+.tube {margin-bottom: 4.5em;}
+.tube .page-header{
+  padding-top:0.3em;    padding-bottom:0.3em;
+  margin-top:0;           margin-bottom:0;
+  border-top: 1px dotted #ddd;
+  border-bottom: 1px dotted #ddd;
+}
+.post-container > .page-header h2 {font-family: inherit;}
+
+.video-box{ margin:0 auto;  max-width: 950px;}
+.video-box-original { margin:0 ;  max-width: 600px;}
+.tube .page-header p {line-height: 5em; margin: 0;}
+.post-container > .row .page-header {  padding:;}
+.save-button{  width:100%; margin: 1.3em 0;}
+
+
+.video-container {
+            position: relative;
+            padding-bottom: 56.25%;
+            padding-top: 0;
+            height: 0;
+            overflow: hidden; border:0;}
+.video-container iframe,
+.video-container object,
+.video-container embed {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;}
+
+
+.post-body{
+  padding: 1em 0;
+  background: ;
+  font-size: 1.17em;
+  font-family: inherit;
+  text-align: justify;
+  color:#6A7067;
+}
+
+
+.topics-name {margin: 5em 0;}
+.topics-name p {}
+.topics-name p a {
+  background: #98B297; border: 0; margin:0.4em 0.3em 0 0; transition: all 0.1s;
+}
+.topics-name p a:hover {  background: #9999CD;}
+
+
+.share-post {margin: 5em 0;}
+.share-post p {}
+.share-post p a { border: 0; margin:0.4em 0.3em 0 0; transition: all 0.1s; }
+.share-post p a.fb {background:#1F5BA0;}
+.share-post p a.t {background:#66FBF6;}
+.share-post p a.g {background:#C45656;}
+.share-post p a:hover {background:#4A190E;}
+
+
+/* Sidebar Make-UP */
+
+#sidebar {background:#E3D9CF;}
+#sidebar > div {margin-bottom: 4.5em;}
+#sidebar > div.sidebar-about {background: #FDDBF6;}
+#sidebar > div.sidebar-selected {background: #DCFDDB;}
+#sidebar > div.sidebar-more {background: #FDDBF6;}
+
+#sidebar > div > div.sidebar-header {}
+#sidebar > div > div.sidebar-header h3 {margin:0 0 1em 0; font-family: inherit; font-size: 1.3em;}
+
+#sidebar > div > div.sidebar-body {}
+#sidebar > div > div.sidebar-body p {margin:0; text-align: justify;}
+#sidebar > div > div.sidebar-body > div.row {
+  margin-left: 0;  margin-right: 0;
+}
+#sidebar > div > div.sidebar-body > div.row > div {
+  padding-left: 0;  padding-right: 0;
+}
+#sidebar > div > div.sidebar-body > div.row > div > img {
+  width:100%;
+}
+#sidebar > div.sidebar-more > div.sidebar-body > div.row > div {
+  padding:0.5em;
+}
+#sidebar > div.sidebar-more > div.sidebar-body > div.row > div:hover {
+    background: #ff0000;
+}
+#sidebar > div > div.sidebar-body > div.row > div:first-child {
+  background: #CED2E2;
+}
+
+#sidebar > div > div.sidebar-body > div.row > div:last-child {
+  background: #ddd; text-align: justify;
+}
+#sidebar > div.sidebar-selected > div.sidebar-body > div.row > div:last-child {
+  padding-left: 0.5em;
+}
+#sidebar > div > div.sidebar-body > div.row > div:last-child > p{}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 1200 and more */
+    @media (min-width: 1200px) {
+    }
+/* 768 ---to--- 979 */
+    @media (min-width: 768px) and (max-width: 979px) { 
+        #sidebar > div > div.sidebar-body > div.row > div {
+          font-size: 0.7em;
+        }
+    }
+/* 767 and less */
+    @media (max-width: 767px) { 
+    }
+/* 480 and less */
+    @media (max-width: 480px) { 
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.dd {
+  background: blue; height: 500px;
+}
+
+
+
