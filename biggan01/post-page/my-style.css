@@ -1,6 +1,8 @@
+/* HEADER design */
+
 
 #page-TOP {
-	background: rgba(68, 61, 28, 0.42) url("http://kawsik.github.io/tripping-octo-dangerzone/biggan01/imgs/science-pattern.jpg") repeat fixed top;
+	background: rgba(68, 61, 28, 0.42) url("https://scontent-lhr3-1.xx.fbcdn.net/hphotos-xfp1/v/t1.0-9/1604689_1153255064700380_8393819453197709240_n.jpg?oh=c1bb698693762e63eae5a99232028345&oe=55F6987D") repeat fixed top;
 	background-size: 400px;
 }
 #page-TOP .b {	background: #6C8672;}
@@ -47,7 +49,7 @@
 		height: 6em;
 		width: 20%;
 		float: left;
-		margin-bottom: 5em;
+		margin-bottom: 4.5em;
 	}
 }
 
@@ -57,7 +59,7 @@
 
 @media (max-width: 767px) {
  
-  #page-TOP {		margin-bottom: 7em;	}
+	#page-TOP {		margin-bottom: 7em;	}
   #page-TOP .b, #page-TOP .c, #page-TOP .d, #page-TOP .e, #page-TOP .f
   {line-height: 3.5em;}
 	#page-TOP .a1 p {
@@ -97,6 +99,7 @@
 }
 
 
+/* End Header Design */
 
 
 
@@ -106,19 +109,8 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-body {}
-.post-container > .page-header{ margin-top:2em; margin-bottom:2.5em;   border: 0; }
-.tube {margin-bottom: 4.5em;}
+.post-container > .page-header{ margin-top: 1em; margin-bottom: 1em;   border: 0; }
+.tube {margin-bottom: 3.8em;}
 .tube .page-header{
   padding-top:0.3em;    padding-bottom:0.3em;
   margin-top:0;           margin-bottom:0;
@@ -131,11 +123,14 @@ body {}
 .tube .page-header p {line-height: 5em; margin: 0;}
 .post-container > .row .page-header {  padding:;}
 
-.save-button{  width:100%; margin: 1.3em 0;}
-.post-container > .page-header > .row > div > button {background: none; color: #ddd; border: 0.01px solid rgba(221, 221, 221, 0.38); text-align:center; transition: all 0.5s;}
-.post-container > .page-header > .row > div > button:hover {background: none; color: #000; border: 0.01px solid #ddd;}
-.post-container > .page-header > .row > div:first-child > button:hover {background: none; color: #000; border: 0.01px solid #ddd; padding-right: 5em;}
-.post-container > .page-header > .row > div:last-child > button:hover  {background: none; color: #000; border: 0.01px solid #ddd; padding-left: 5em;}
+.save-button {  width:100%; margin: 1.3em 0; }
+.post-container > .page-header > .row > div {}
+.post-container > .page-header > .row > div > button {background: none; border: 0.01px solid rgba(221, 221, 221, 0.38); text-align:center; transition: all 0.5s;}
+.post-container > .page-header > .row > div > button:hover {background: none; border: 0.01px solid #ddd;}
+.post-container > .page-header > .row > div > button > a {color: rgba(143, 144, 168, 0.51); transition: all 0.3s;}
+.post-container > .page-header > .row > div > button:hover > a {color: #000; }
+.post-container > .page-header > .row > div:first-child > button:hover {background: none; border: 0.01px solid #ddd; padding-right: 5em;}
+.post-container > .page-header > .row > div:last-child > button:hover  {background: none; border: 0.01px solid #ddd; padding-left: 5em;}
 
 
 .video-container {
@@ -234,14 +229,6 @@ body {}
 
 
 
-
-
-
-
-
-
-
-
 /* 1200 and more */
     @media (min-width: 1200px) {
     }
@@ -250,7 +237,6 @@ body {}
     }
 /* 979 and less */
     @media (max-width: 979px) { 
-        .save-button{  width: 40%; margin: 0;}
         #sidebar > div > div.sidebar-body > div.row > a > div {
           font-size: ;
         }
@@ -267,21 +253,31 @@ body {}
 
 
 
+/* Footer */
+
+
+#friends-area {background: #F9DEFE none repeat scroll 0% 0%; padding:0 1em ;}
+#friends { width: 100%;}
+#friends > div.row > div {background: #C5FBA8; padding-top: 5em; padding-bottom:5em;}
+#friends .area {text-align: center; background: ; height: 50px;}
+#friends .area, .inside, .inside div {overflow: hidden;}
+#friends .inside > div:first-child {  background: ; color: #fff; line-height: 50px; transition: all 0.18s;}
+#friends .inside > div:last-child {  background: rgba(241, 245, 249, 0.42) none repeat scroll 0% 0%; transition: all 0.18s; line-height: 50px;}
+#friends > div.row > div:hover > div.area > .inside > div:first-child {  margin-top: -50px; }
+#friends div#fb-page > iframe {margin-top:0em;border: none;overflow: hidden;width: 78px; height: 25px;}
+#friends .inside > div:last-child > div {line-height: 50px; padding-top: 10em; transition: all 0.17s;}
+#friends > div.row > div:hover .inside > div:last-child > div#fb-page {padding-top: 0.6em;}
+#friends > div.row > div:hover .inside > div:last-child > div#tr-page {padding-top: 0.6em;}
+#friends > div.row > div:hover .inside > div:last-child > div#tube-page {padding-top: 0.4em;}
+#friends > div.row > div:nth-child(1) {background: #3F5C9A;}
+#friends > div.row > div:nth-child(2) {background: #55ACEE;}
+#friends > div.row > div:nth-child(3) {background: #CC181E;}
 
 
 
 
 
 
-
-
-
-
-
-
-.d {
-  background: blue; height: 500px;
-}
 
 
 
