@@ -2,7 +2,7 @@
 
 
 #page-TOP {
-	background: rgba(68, 61, 28, 0.42) url("/imgs/science-pattern.jpg") repeat fixed top;
+	background: rgba(68, 61, 28, 0.42) url("./imgs/science-pattern.jpg") repeat fixed top;
 	background-size: 400px;
 }
 #page-TOP .b {	background: #6C8672;}
